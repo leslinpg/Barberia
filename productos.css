@@ -1,0 +1,97 @@
+header {
+  background-color: #bbbbbb;
+  padding: 20px 0;
+}
+
+.encabezado {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline; /*que no ocupe el 100% de la pagina, coloca la lista horizontal*/
+  padding-left: 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: rgb(255, 196, 0);/*PARA PASAR EL MOUSE Y QUE CAMBIE DE COLOR */
+  text-decoration: underline; /*PARA QUE MUESTRE SUBRAYADO AL PASAR EL MOUSE*/
+}
+
+.productos {
+  width: 940px;
+  margin: 0 auto; /* los laterales los distribuye de manera automatica*/
+  padding: 50px;
+}
+
+.productos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  /*background: #cccccc; para ayudarnos a tener una vista de los cuadros mas clara y hacer cuentas*/
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;/*no sobrepasa los 940px d ela pantalla*/
+  border: 2px black solid;
+  border-radius: 10px;
+
+}
+
+.productos li:hover{
+  border-color: orange;
+  
+
+}
+
+.productos li:hover h2{
+  font-size: 33px;
+}
+
+.productos li:active{/* CUANDO DOY CLICK CAMBIA DE COLOR AL SELECCIONAR TARJETA*/
+  border-color: rgb(0, 255, 13);
+}
+
+.productos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.descrip{
+    font-size: 18px;
+ 
+}
+
+.precio{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+  text-align: center;
+  background-color: #bbbbbb;
+  background:url(imagenes/bg.jpg);
+  padding: 40px;
+}
+
+.copy {
+color: white;
+font-size: 13px;
+margin: 20px;
+}
